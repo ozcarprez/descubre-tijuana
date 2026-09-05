@@ -11,6 +11,8 @@ Cartelera independiente de actividades en Tijuana, preparada para Vercel.
 - Páginas individuales generadas al construir, metadatos, datos estructurados y sitemap.
 - Fechas, precios, ubicación, fuente y enlaces para compartir cada evento.
 - Descarga de calendario para actividades con horario confirmado. Una discrepancia de horario se señala y deshabilita esa descarga.
+- Modo oscuro automático (respeta el sistema) con interruptor manual persistente.
+- Evento destacado y estadísticas rápidas (planes activos, gratuitos, esta semana) en el inicio. Marca un evento con `"featured": true` en `events.json` para destacarlo.
 
 ## Desarrollo
 

@@ -1,1 +1,4 @@
 document.querySelector('#share')?.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(location.href);document.querySelector('#share-status').textContent='Enlace copiado.';}catch{document.querySelector('#share-status').textContent='Copia la dirección de esta página para compartirla.';}});
+function currentTheme(){return document.documentElement.dataset.theme||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');}
+const themeBtn=document.querySelector('#theme-toggle');
+if(themeBtn){themeBtn.setAttribute('aria-pressed',String(currentTheme()==='dark'));themeBtn.addEventListener('click',()=>{const next=currentTheme()==='dark'?'light':'dark';document.documentElement.dataset.theme=next;try{localStorage.setItem('theme',next);}catch{}themeBtn.setAttribute('aria-pressed',String(next==='dark'));});}
