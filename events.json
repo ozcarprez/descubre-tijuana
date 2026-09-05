@@ -1,6 +1,584 @@
 [
-{"id":"peninsula-2026","title":"Tecate Península","category":"Música","date":"2026-10-24","dateLabel":"24 OCT","venue":"Tijuana","price":"Consulta precios oficiales","free":false,"image":"https://tecatepeninsula.com/img/fotos/escenario-optimized.jpg","source":"https://tecatepeninsula.com/","description":"Un día para encontrarte con la música en vivo. Consulta el cartel, los horarios y las condiciones de acceso directamente con el festival.","verified":"2026-09-05","tone":"blue"},
-{"id":"factor-fiesta-2026","title":"Expo Factor Fiesta","category":"Festivales","date":"2026-10-10","endDate":"2026-10-11","dateLabel":"10—11 OCT","venue":"Explanada Museo El Trompo","price":"Entrada gratuita","free":true,"image":"https://expofactorfiesta.com/assets/t1.png","source":"https://www.expofactorfiesta.com/","description":"Decoración, talleres y proveedores para quienes disfrutan crear celebraciones. El organizador anuncia entrada gratuita y registro en su página.","verified":"2026-09-05","tone":"pink"},
-{"id":"usher-2026","title":"La caída de la casa Usher","category":"Cultura","date":"2026-09-05","endDate":"2026-09-06","dateLabel":"05—06 SEP","venue":"Sala de Espectáculos · CECUT","price":"Consulta precios oficiales","free":false,"image":"https://www.cecut.gob.mx/images/cover/casausherc.jpg","source":"https://www.cecut.gob.mx/","description":"Ópera de cámara de Philip Glass basada en el cuento de Edgar Allan Poe. Revisa funciones y disponibilidad con el CECUT.","verified":"2026-09-05","tone":"purple"},
-{"id":"grafica-patinetas","title":"Gráfica sobre patinetas","category":"Talleres","date":"2026-09-05","endDate":"2026-09-13","dateLabel":"05—13 SEP","venue":"Jardín Botánico · CECUT","price":"Consulta costo y registro","free":false,"image":"","source":"https://www.cecut.gob.mx/pdf/cartelera/programaboarder.pdf","description":"Taller de gráfica en patinetas con sesiones anunciadas para los días 5, 6, 12 y 13 de septiembre. Consulta requisitos, horarios y cupo en el programa oficial.","verified":"2026-09-05","tone":"lime"}
+  {
+    "id": "peninsula-2026",
+    "title": "Tecate Península",
+    "category": "Música",
+    "date": "2026-10-24",
+    "dateLabel": "24 OCT",
+    "venue": "Tijuana",
+    "price": "Consulta precios oficiales",
+    "free": false,
+    "image": "https://tecatepeninsula.com/img/fotos/escenario-optimized.jpg",
+    "source": "https://tecatepeninsula.com/",
+    "description": "Un día para encontrarte con la música en vivo. Consulta el cartel, los horarios y las condiciones de acceso directamente con el festival.",
+    "verified": "2026-09-05",
+    "tone": "blue"
+  },
+  {
+    "id": "factor-fiesta-2026",
+    "title": "Expo Factor Fiesta",
+    "category": "Festivales",
+    "date": "2026-10-10",
+    "endDate": "2026-10-11",
+    "dateLabel": "10—11 OCT",
+    "venue": "Explanada Museo El Trompo",
+    "price": "Entrada gratuita",
+    "free": true,
+    "image": "https://expofactorfiesta.com/assets/t1.png",
+    "source": "https://www.expofactorfiesta.com/",
+    "description": "Decoración, talleres y proveedores para quienes disfrutan crear celebraciones. El organizador anuncia entrada gratuita y registro en su página.",
+    "verified": "2026-09-05",
+    "tone": "pink",
+    "priceValue": 0
+  },
+  {
+    "id": "usher-2026",
+    "title": "La caída de la casa Usher",
+    "category": "Cultura",
+    "date": "2026-09-05",
+    "endDate": "2026-09-06",
+    "dateLabel": "05—06 SEP",
+    "venue": "Sala de Espectáculos · CECUT",
+    "price": "$350 y $450 MXN",
+    "free": false,
+    "image": "https://www.cecut.gob.mx/images/cover/casausherc.jpg",
+    "source": "https://www.cecut.gob.mx/qr/cecut.pdf",
+    "description": "Ópera de cámara de Philip Glass basada en el cuento de Edgar Allan Poe. Revisa funciones y disponibilidad con el CECUT.",
+    "verified": "2026-09-05",
+    "tone": "purple",
+    "sessions": [
+      {
+        "date": "2026-09-05",
+        "time": "19:00"
+      },
+      {
+        "date": "2026-09-06",
+        "time": "17:00"
+      }
+    ],
+    "priceValue": 350,
+    "scheduleNote": "La cabecera del programa contiene otro horario; se muestran los horarios específicos por función. Confirma con taquilla."
+  },
+  {
+    "id": "grafica-patinetas",
+    "title": "Gráfica sobre patinetas",
+    "category": "Talleres",
+    "date": "2026-09-05",
+    "endDate": "2026-09-13",
+    "dateLabel": "05—13 SEP",
+    "venue": "Jardín Botánico · CECUT",
+    "price": "Consulta costo y registro",
+    "free": false,
+    "image": "",
+    "source": "https://www.cecut.gob.mx/pdf/cartelera/programaboarder.pdf",
+    "description": "Taller de gráfica en patinetas con sesiones anunciadas para los días 5, 6, 12 y 13 de septiembre. Consulta requisitos, horarios y cupo en el programa oficial.",
+    "verified": "2026-09-05",
+    "tone": "lime",
+    "sessions": [
+      {
+        "date": "2026-09-05"
+      },
+      {
+        "date": "2026-09-06"
+      },
+      {
+        "date": "2026-09-12"
+      },
+      {
+        "date": "2026-09-13"
+      }
+    ]
+  },
+  {
+    "id": "lapicero-rojo",
+    "title": "Novedades de Lapicero Rojo",
+    "category": "Literatura",
+    "date": "2026-09-08",
+    "dateLabel": "08 SEP",
+    "venue": "Sala de Video · CECUT",
+    "venueGroup": "CECUT",
+    "time": "17:00",
+    "price": "Entrada libre",
+    "priceValue": 0,
+    "free": true,
+    "image": "",
+    "source": "https://www.cecut.gob.mx/qr/cecut.pdf",
+    "sourceName": "Programa oficial CECUT · septiembre 2026",
+    "description": "Actividad anunciada en la programación oficial de septiembre del CECUT. Consulta las condiciones de acceso en el programa.",
+    "verified": "2026-09-05",
+    "tone": "lime",
+    "address": "Paseo de los Héroes 9350, Zona Urbana Río Tijuana",
+    "organizer": "CECUT",
+    "sessions": [
+      {
+        "date": "2026-09-08",
+        "time": "17:00"
+      }
+    ]
+  },
+  {
+    "id": "un-lugar-mundo",
+    "title": "Un lugar en el mundo",
+    "category": "Literatura",
+    "date": "2026-09-08",
+    "dateLabel": "08 SEP",
+    "venue": "Sala de Lectura · CECUT",
+    "venueGroup": "CECUT",
+    "time": "17:00",
+    "price": "Entrada libre",
+    "priceValue": 0,
+    "free": true,
+    "image": "",
+    "source": "https://www.cecut.gob.mx/qr/cecut.pdf",
+    "sourceName": "Programa oficial CECUT · septiembre 2026",
+    "description": "Actividad anunciada en la programación oficial de septiembre del CECUT. Consulta las condiciones de acceso en el programa.",
+    "verified": "2026-09-05",
+    "tone": "lime",
+    "address": "Paseo de los Héroes 9350, Zona Urbana Río Tijuana",
+    "organizer": "CECUT",
+    "sessions": [
+      {
+        "date": "2026-09-08",
+        "time": "17:00"
+      }
+    ]
+  },
+  {
+    "id": "polvora-milpa",
+    "title": "Pólvora en la Milpa",
+    "category": "Literatura",
+    "date": "2026-09-09",
+    "dateLabel": "09 SEP",
+    "venue": "Sala Federico Campbell · CECUT",
+    "venueGroup": "CECUT",
+    "time": "18:00",
+    "price": "Entrada libre",
+    "priceValue": 0,
+    "free": true,
+    "image": "",
+    "source": "https://www.cecut.gob.mx/qr/cecut.pdf",
+    "sourceName": "Programa oficial CECUT · septiembre 2026",
+    "description": "Actividad anunciada en la programación oficial de septiembre del CECUT. Consulta las condiciones de acceso en el programa.",
+    "verified": "2026-09-05",
+    "tone": "lime",
+    "address": "Paseo de los Héroes 9350, Zona Urbana Río Tijuana",
+    "organizer": "CECUT",
+    "sessions": [
+      {
+        "date": "2026-09-09",
+        "time": "18:00"
+      }
+    ]
+  },
+  {
+    "id": "skate-documentales",
+    "title": "Realidades del skate bajacaliforniano",
+    "category": "Cine",
+    "date": "2026-09-09",
+    "dateLabel": "09 SEP",
+    "venue": "Sala de Video · CECUT",
+    "venueGroup": "CECUT",
+    "time": "18:00",
+    "price": "Entrada libre",
+    "priceValue": 0,
+    "free": true,
+    "image": "",
+    "source": "https://www.cecut.gob.mx/qr/cecut.pdf",
+    "sourceName": "Programa oficial CECUT · septiembre 2026",
+    "description": "Actividad anunciada en la programación oficial de septiembre del CECUT. Consulta las condiciones de acceso en el programa.",
+    "verified": "2026-09-05",
+    "tone": "purple",
+    "address": "Paseo de los Héroes 9350, Zona Urbana Río Tijuana",
+    "organizer": "CECUT",
+    "sessions": [
+      {
+        "date": "2026-09-09",
+        "time": "18:00"
+      }
+    ]
+  },
+  {
+    "id": "compartiendo-letras",
+    "title": "Compartiendo Letras",
+    "category": "Literatura",
+    "date": "2026-09-24",
+    "dateLabel": "24 SEP",
+    "venue": "Sala de Lectura · CECUT",
+    "venueGroup": "CECUT",
+    "time": "17:00",
+    "price": "Entrada libre",
+    "priceValue": 0,
+    "free": true,
+    "image": "",
+    "source": "https://www.cecut.gob.mx/qr/cecut.pdf",
+    "sourceName": "Programa oficial CECUT · septiembre 2026",
+    "description": "Actividad anunciada en la programación oficial de septiembre del CECUT. Consulta las condiciones de acceso en el programa.",
+    "verified": "2026-09-05",
+    "tone": "lime",
+    "address": "Paseo de los Héroes 9350, Zona Urbana Río Tijuana",
+    "organizer": "CECUT",
+    "sessions": [
+      {
+        "date": "2026-09-24",
+        "time": "17:00"
+      }
+    ]
+  },
+  {
+    "id": "sonidos-baja",
+    "title": "Sonidos de Baja California",
+    "category": "Música",
+    "date": "2026-09-24",
+    "dateLabel": "24 SEP",
+    "venue": "Sala Federico Campbell · CECUT",
+    "venueGroup": "CECUT",
+    "time": "19:00",
+    "price": "Entrada libre",
+    "priceValue": 0,
+    "free": true,
+    "image": "",
+    "source": "https://www.cecut.gob.mx/qr/cecut.pdf",
+    "sourceName": "Programa oficial CECUT · septiembre 2026",
+    "description": "Actividad anunciada en la programación oficial de septiembre del CECUT. Consulta las condiciones de acceso en el programa.",
+    "verified": "2026-09-05",
+    "tone": "blue",
+    "address": "Paseo de los Héroes 9350, Zona Urbana Río Tijuana",
+    "organizer": "CECUT",
+    "sessions": [
+      {
+        "date": "2026-09-24",
+        "time": "19:00"
+      }
+    ]
+  },
+  {
+    "id": "jovenes-interpretes",
+    "title": "Jóvenes intérpretes",
+    "category": "Música",
+    "date": "2026-09-25",
+    "dateLabel": "25 SEP",
+    "venue": "Sala Federico Campbell · CECUT",
+    "venueGroup": "CECUT",
+    "time": "17:00",
+    "price": "Entrada libre",
+    "priceValue": 0,
+    "free": true,
+    "image": "",
+    "source": "https://www.cecut.gob.mx/qr/cecut.pdf",
+    "sourceName": "Programa oficial CECUT · septiembre 2026",
+    "description": "Actividad anunciada en la programación oficial de septiembre del CECUT. Consulta las condiciones de acceso en el programa.",
+    "verified": "2026-09-05",
+    "tone": "blue",
+    "address": "Paseo de los Héroes 9350, Zona Urbana Río Tijuana",
+    "organizer": "CECUT",
+    "sessions": [
+      {
+        "date": "2026-09-25",
+        "time": "17:00"
+      }
+    ]
+  },
+  {
+    "id": "archivos-luz",
+    "title": "Sin miedo a la luz: Pedro Valtierra",
+    "category": "Cultura",
+    "date": "2026-09-26",
+    "dateLabel": "26 SEP",
+    "venue": "Cendoart · CECUT",
+    "venueGroup": "CECUT",
+    "time": "16:00",
+    "price": "Entrada libre",
+    "priceValue": 0,
+    "free": true,
+    "image": "",
+    "source": "https://www.cecut.gob.mx/qr/cecut.pdf",
+    "sourceName": "Programa oficial CECUT · septiembre 2026",
+    "description": "Actividad anunciada en la programación oficial de septiembre del CECUT. Consulta las condiciones de acceso en el programa.",
+    "verified": "2026-09-05",
+    "tone": "blue",
+    "address": "Paseo de los Héroes 9350, Zona Urbana Río Tijuana",
+    "organizer": "CECUT",
+    "sessions": [
+      {
+        "date": "2026-09-26",
+        "time": "16:00"
+      }
+    ]
+  },
+  {
+    "id": "danzon-septiembre",
+    "title": "Danzón, de los pies al corazón",
+    "category": "Danza",
+    "date": "2026-09-26",
+    "dateLabel": "26 SEP",
+    "venue": "Vestíbulo de El Cubo · CECUT",
+    "venueGroup": "CECUT",
+    "time": "16:00",
+    "price": "Entrada libre",
+    "priceValue": 0,
+    "free": true,
+    "image": "",
+    "source": "https://www.cecut.gob.mx/qr/cecut.pdf",
+    "sourceName": "Programa oficial CECUT · septiembre 2026",
+    "description": "Actividad anunciada en la programación oficial de septiembre del CECUT. Consulta las condiciones de acceso en el programa.",
+    "verified": "2026-09-05",
+    "tone": "pink",
+    "address": "Paseo de los Héroes 9350, Zona Urbana Río Tijuana",
+    "organizer": "CECUT",
+    "sessions": [
+      {
+        "date": "2026-09-26",
+        "time": "16:00"
+      }
+    ]
+  },
+  {
+    "id": "lago-cisnes",
+    "title": "Suite Lago de los Cisnes",
+    "category": "Danza",
+    "date": "2026-09-26",
+    "dateLabel": "26 SEP",
+    "venue": "Sala de Espectáculos · CECUT",
+    "venueGroup": "CECUT",
+    "time": "19:00",
+    "price": "$400 MXN",
+    "priceValue": 400,
+    "free": false,
+    "image": "",
+    "source": "https://www.cecut.gob.mx/qr/cecut.pdf",
+    "sourceName": "Programa oficial CECUT · septiembre 2026",
+    "description": "Actividad anunciada en la programación oficial de septiembre del CECUT. Consulta las condiciones de acceso en el programa.",
+    "verified": "2026-09-05",
+    "tone": "pink",
+    "address": "Paseo de los Héroes 9350, Zona Urbana Río Tijuana",
+    "organizer": "CECUT",
+    "sessions": [
+      {
+        "date": "2026-09-26",
+        "time": "19:00"
+      }
+    ]
+  },
+  {
+    "id": "rock-music-fest",
+    "title": "Rock Music Fest",
+    "category": "Festivales",
+    "date": "2026-09-26",
+    "dateLabel": "26—27 SEP",
+    "venue": "Explanada · CECUT",
+    "venueGroup": "CECUT",
+    "time": "12:00",
+    "price": "Entrada libre",
+    "priceValue": 0,
+    "free": true,
+    "image": "",
+    "source": "https://www.cecut.gob.mx/qr/cecut.pdf",
+    "sourceName": "Programa oficial CECUT · septiembre 2026",
+    "description": "Actividad anunciada en la programación oficial de septiembre del CECUT. Consulta las condiciones de acceso en el programa.",
+    "verified": "2026-09-05",
+    "tone": "pink",
+    "address": "Paseo de los Héroes 9350, Zona Urbana Río Tijuana",
+    "organizer": "CECUT",
+    "sessions": [
+      {
+        "date": "2026-09-26",
+        "time": "12:00"
+      },
+      {
+        "date": "2026-09-27",
+        "time": "12:00"
+      }
+    ],
+    "endDate": "2026-09-27"
+  },
+  {
+    "id": "patrimonio-bc",
+    "title": "Día del Patrimonio de Baja California",
+    "category": "Cultura",
+    "date": "2026-09-27",
+    "dateLabel": "27 SEP",
+    "venue": "Museo de las Californias · CECUT",
+    "venueGroup": "CECUT",
+    "time": "13:00",
+    "price": "Entrada libre",
+    "priceValue": 0,
+    "free": true,
+    "image": "",
+    "source": "https://www.cecut.gob.mx/qr/cecut.pdf",
+    "sourceName": "Programa oficial CECUT · septiembre 2026",
+    "description": "Actividad anunciada en la programación oficial de septiembre del CECUT. Consulta las condiciones de acceso en el programa.",
+    "verified": "2026-09-05",
+    "tone": "blue",
+    "address": "Paseo de los Héroes 9350, Zona Urbana Río Tijuana",
+    "organizer": "CECUT",
+    "sessions": [
+      {
+        "date": "2026-09-27",
+        "time": "13:00"
+      }
+    ]
+  },
+  {
+    "id": "historia-skate",
+    "title": "Historia del skateboarding en Baja California",
+    "category": "Cultura",
+    "date": "2026-09-27",
+    "dateLabel": "27 SEP",
+    "venue": "Sala de Video · CECUT",
+    "venueGroup": "CECUT",
+    "time": "14:00",
+    "price": "Entrada libre",
+    "priceValue": 0,
+    "free": true,
+    "image": "",
+    "source": "https://www.cecut.gob.mx/qr/cecut.pdf",
+    "sourceName": "Programa oficial CECUT · septiembre 2026",
+    "description": "Actividad anunciada en la programación oficial de septiembre del CECUT. Consulta las condiciones de acceso en el programa.",
+    "verified": "2026-09-05",
+    "tone": "blue",
+    "address": "Paseo de los Héroes 9350, Zona Urbana Río Tijuana",
+    "organizer": "CECUT",
+    "sessions": [
+      {
+        "date": "2026-09-27",
+        "time": "14:00"
+      }
+    ]
+  },
+  {
+    "id": "cine-skate",
+    "title": "Cine de skate y cultura urbana",
+    "category": "Cine",
+    "date": "2026-09-27",
+    "dateLabel": "27 SEP",
+    "venue": "Sala de Video · CECUT",
+    "venueGroup": "CECUT",
+    "time": "17:00",
+    "price": "Entrada libre",
+    "priceValue": 0,
+    "free": true,
+    "image": "",
+    "source": "https://www.cecut.gob.mx/qr/cecut.pdf",
+    "sourceName": "Programa oficial CECUT · septiembre 2026",
+    "description": "Actividad anunciada en la programación oficial de septiembre del CECUT. Consulta las condiciones de acceso en el programa.",
+    "verified": "2026-09-05",
+    "tone": "purple",
+    "address": "Paseo de los Héroes 9350, Zona Urbana Río Tijuana",
+    "organizer": "CECUT",
+    "sessions": [
+      {
+        "date": "2026-09-27",
+        "time": "17:00"
+      }
+    ]
+  },
+  {
+    "id": "eterno-humor",
+    "title": "Eterno A(hu)mor",
+    "category": "Teatro",
+    "date": "2026-09-27",
+    "dateLabel": "27 SEP",
+    "venue": "Sala de Espectáculos · CECUT",
+    "venueGroup": "CECUT",
+    "time": "18:00",
+    "price": "Entrada libre",
+    "priceValue": 0,
+    "free": true,
+    "image": "",
+    "source": "https://www.cecut.gob.mx/qr/cecut.pdf",
+    "sourceName": "Programa oficial CECUT · septiembre 2026",
+    "description": "Puesta en escena de Espacio Invisible. Duración anunciada: 60 minutos.",
+    "verified": "2026-09-05",
+    "tone": "purple",
+    "address": "Paseo de los Héroes 9350, Zona Urbana Río Tijuana",
+    "organizer": "CECUT",
+    "sessions": [
+      {
+        "date": "2026-09-27",
+        "time": "18:00"
+      }
+    ],
+    "audience": "Mayores de 14 años"
+  },
+  {
+    "id": "ia-urbana",
+    "title": "Inteligencia artificial y planificación urbana",
+    "category": "Literatura",
+    "date": "2026-09-29",
+    "dateLabel": "29 SEP",
+    "venue": "Sala Federico Campbell · CECUT",
+    "venueGroup": "CECUT",
+    "time": "18:00",
+    "price": "Entrada libre",
+    "priceValue": 0,
+    "free": true,
+    "image": "",
+    "source": "https://www.cecut.gob.mx/qr/cecut.pdf",
+    "sourceName": "Programa oficial CECUT · septiembre 2026",
+    "description": "Actividad anunciada en la programación oficial de septiembre del CECUT. Consulta las condiciones de acceso en el programa.",
+    "verified": "2026-09-05",
+    "tone": "lime",
+    "address": "Paseo de los Héroes 9350, Zona Urbana Río Tijuana",
+    "organizer": "CECUT",
+    "sessions": [
+      {
+        "date": "2026-09-29",
+        "time": "18:00"
+      }
+    ]
+  },
+  {
+    "id": "historia-baja",
+    "title": "Baja California en la segunda mitad del siglo XX",
+    "category": "Cultura",
+    "date": "2026-09-30",
+    "dateLabel": "30 SEP",
+    "venue": "Sala Federico Campbell · CECUT",
+    "venueGroup": "CECUT",
+    "time": "18:00",
+    "price": "Entrada libre",
+    "priceValue": 0,
+    "free": true,
+    "image": "",
+    "source": "https://www.cecut.gob.mx/qr/cecut.pdf",
+    "sourceName": "Programa oficial CECUT · septiembre 2026",
+    "description": "Actividad anunciada en la programación oficial de septiembre del CECUT. Consulta las condiciones de acceso en el programa.",
+    "verified": "2026-09-05",
+    "tone": "blue",
+    "address": "Paseo de los Héroes 9350, Zona Urbana Río Tijuana",
+    "organizer": "CECUT",
+    "sessions": [
+      {
+        "date": "2026-09-30",
+        "time": "18:00"
+      }
+    ]
+  },
+  {
+    "id": "coleccionando",
+    "title": "Coleccionando lo propio: política, arte y museos",
+    "category": "Cultura",
+    "date": "2026-09-30",
+    "dateLabel": "30 SEP",
+    "venue": "Sala de Juntas de El Cubo · CECUT",
+    "venueGroup": "CECUT",
+    "time": "18:00",
+    "price": "Entrada libre",
+    "priceValue": 0,
+    "free": true,
+    "image": "",
+    "source": "https://www.cecut.gob.mx/qr/cecut.pdf",
+    "sourceName": "Programa oficial CECUT · septiembre 2026",
+    "description": "Actividad anunciada en la programación oficial de septiembre del CECUT. Consulta las condiciones de acceso en el programa.",
+    "verified": "2026-09-05",
+    "tone": "blue",
+    "address": "Paseo de los Héroes 9350, Zona Urbana Río Tijuana",
+    "organizer": "CECUT",
+    "sessions": [
+      {
+        "date": "2026-09-30",
+        "time": "18:00"
+      }
+    ]
+  }
 ]

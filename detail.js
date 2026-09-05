@@ -1,0 +1,1 @@
+document.querySelector('#share')?.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(location.href);document.querySelector('#share-status').textContent='Enlace copiado.';}catch{document.querySelector('#share-status').textContent='Copia la dirección de esta página para compartirla.';}});

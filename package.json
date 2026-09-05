@@ -1,2 +1,13 @@
-{"name":"descubre-tijuana","version":"0.1.0","private":true,"scripts":{"build":"node scripts/build.mjs","check":"node --check app.js","start":"node scripts/serve.mjs"},"engines":{"node":">=22"}}
-
+{
+  "name": "descubre-tijuana",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node --check app.js && node --check detail.js && node tests/catalog.test.mjs",
+    "start": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
