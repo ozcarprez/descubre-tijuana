@@ -4,7 +4,7 @@ Cartelera independiente de actividades en Tijuana, preparada para Vercel.
 
 ## Funciones
 
-- 22 eventos iniciales provenientes de fuentes oficiales, revisados el 5 de septiembre de 2026.
+- 46 eventos provenientes de fuentes oficiales, revisados el 5 de septiembre de 2026.
 - Búsqueda sin distinción de acentos y filtros combinados de categoría, lugar, fecha y presupuesto.
 - Calendario mensual con sesiones exactas; los eventos pasados se excluyen por defecto.
 - Filtros compartibles mediante URL.
@@ -22,6 +22,6 @@ Vercel usa vercel.json. No requiere secretos ni dependencias externas.
 
 Editar events.json y desplegar. Las sesiones discontinuas se guardan en sessions, con date y time. Nunca marcar un precio desconocido como gratis ni inventar un horario.
 
-Fuentes: https://www.cecut.gob.mx/qr/cecut.pdf · https://tecatepeninsula.com/ · https://expofactorfiesta.com/
+Fuentes: https://ferianacionaldetijuana.com/lineup/ · https://madueno.mx/collections/boletos · https://www.bajacalifornia.travel/es/eventos · https://servieventos.com.mx/ · https://www.cecut.gob.mx/qr/cecut.pdf · https://tecatepeninsula.com/ · https://expofactorfiesta.com/
 
 La selección no es exhaustiva y no se actualiza automáticamente. No hay panel público, venta de entradas, scraping programado ni cuentas sociales conectadas. Las imágenes pertenecen a sus respectivos organizadores y se referencian desde sus páginas.
