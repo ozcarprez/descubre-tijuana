@@ -318,7 +318,7 @@
     "price": "Entrada libre",
     "priceValue": 0,
     "free": true,
-    "image": "",
+    "image": "https://mexicoescultura.com/galerias/actividades/principal/baile_mensual_danzon_jul.jpg",
     "source": "https://www.cecut.gob.mx/qr/cecut.pdf",
     "sourceName": "Programa oficial CECUT · septiembre 2026",
     "description": "Actividad anunciada en la programación oficial de septiembre del CECUT. Consulta las condiciones de acceso en el programa.",
@@ -1007,6 +1007,140 @@
       {
         "date": "2026-09-25",
         "time": "20:30"
+      }
+    ]
+  },
+  {
+    "id": "humbe-2026",
+    "title": "Humbe · Dueño del Cielo Tour",
+    "category": "Música",
+    "date": "2026-09-05",
+    "dateLabel": "05 SEP",
+    "venue": "Plaza Monumental · Playas de Tijuana",
+    "time": "21:00",
+    "price": "Desde $650 MXN",
+    "priceValue": 650,
+    "free": false,
+    "image": "https://assets0.dostuffmedia.com/uploads/aws_asset/aws_asset/29114573/11381c89-33a1-419f-bfc2-83f9f758452a.jpg",
+    "source": "https://haztj.com/events/2026/9/5/humbe-tickets",
+    "sourceName": "HazTJ",
+    "description": "Concierto de Humbe en la Plaza Monumental de Playas de Tijuana, dentro de su gira Dueño del Cielo.",
+    "verified": "2026-09-05",
+    "tone": "pink",
+    "sessions": [
+      {
+        "date": "2026-09-05",
+        "time": "21:00"
+      }
+    ]
+  },
+  {
+    "id": "toros-serie-rey-j1-2026",
+    "title": "Toros vs Olmecas · Serie del Rey J1",
+    "category": "Deportes",
+    "date": "2026-09-08",
+    "dateLabel": "08 SEP",
+    "venue": "Toros Mobil Park",
+    "time": "19:35",
+    "price": "$80 – $320 MXN",
+    "priceValue": 80,
+    "free": false,
+    "image": "https://cdn.boletomovil.com/teams/TF_Banner_BM-sitio.png",
+    "source": "https://boletomovil.com/toros-tijuana",
+    "sourceName": "Boletomóvil · Toros de Tijuana",
+    "description": "Juego 1 de la Serie del Rey de la Liga Mexicana de Béisbol: Toros de Tijuana, líder de la temporada regular, recibe a Olmecas en el Toros Mobil Park.",
+    "verified": "2026-09-05",
+    "tone": "blue",
+    "sessions": [
+      {
+        "date": "2026-09-08",
+        "time": "19:35"
+      }
+    ]
+  },
+  {
+    "id": "toros-serie-rey-j2-2026",
+    "title": "Toros vs Olmecas · Serie del Rey J2",
+    "category": "Deportes",
+    "date": "2026-09-09",
+    "dateLabel": "09 SEP",
+    "venue": "Toros Mobil Park",
+    "time": "19:35",
+    "price": "$80 – $320 MXN",
+    "priceValue": 80,
+    "free": false,
+    "image": "https://cdn.boletomovil.com/teams/TF_Banner_BM-sitio.png",
+    "source": "https://boletomovil.com/toros-tijuana",
+    "sourceName": "Boletomóvil · Toros de Tijuana",
+    "description": "Juego 2 de la Serie del Rey de la Liga Mexicana de Béisbol entre Toros de Tijuana y Olmecas en el Toros Mobil Park.",
+    "verified": "2026-09-05",
+    "tone": "blue",
+    "sessions": [
+      {
+        "date": "2026-09-09",
+        "time": "19:35"
+      }
+    ]
+  },
+  {
+    "id": "xolos-queretaro-2026",
+    "title": "Xolos vs Querétaro",
+    "category": "Deportes",
+    "date": "2026-09-11",
+    "dateLabel": "11 SEP",
+    "venue": "Estadio Caliente",
+    "price": "Consulta precios oficiales",
+    "free": false,
+    "image": "",
+    "source": "https://pwrticket.mx/",
+    "sourceName": "PWRTicket · boletera oficial de Xolos",
+    "description": "Partido de local de Xolos de Tijuana en el Apertura 2026 de la Liga MX. Consulta el horario exacto y disponibilidad de boletos con la boletera oficial del club.",
+    "verified": "2026-09-05",
+    "tone": "purple"
+  },
+  {
+    "id": "elefante-2026",
+    "title": "Elefante",
+    "category": "Música",
+    "date": "2026-10-16",
+    "dateLabel": "16 OCT",
+    "venue": "El Foro",
+    "time": "22:00",
+    "price": "Consulta precios oficiales",
+    "free": false,
+    "image": "https://assets0.dostuffmedia.com/uploads/aws_asset/aws_asset/30268133/c9d8d7f2-1971-4cb9-8e29-343aecd3105b.jpg",
+    "source": "https://haztj.com/events/2026/10/16/elefante-tickets",
+    "sourceName": "HazTJ",
+    "description": "Concierto de la banda mexicana Elefante en El Foro, antiguo Frontón Palacio Jai Alai.",
+    "verified": "2026-09-05",
+    "tone": "blue",
+    "sessions": [
+      {
+        "date": "2026-10-16",
+        "time": "22:00"
+      }
+    ]
+  },
+  {
+    "id": "mago-de-oz-2026",
+    "title": "Mago de Oz",
+    "category": "Música",
+    "date": "2026-11-28",
+    "dateLabel": "28 NOV",
+    "venue": "El Foro",
+    "time": "20:00",
+    "price": "Consulta precios oficiales",
+    "free": false,
+    "image": "https://assets0.dostuffmedia.com/uploads/aws_asset/aws_asset/28966633/3f637210-46ac-43eb-8fbc-4389a971461c.jpg",
+    "source": "https://haztj.com/events/2026/11/28/mago-de-oz-tickets",
+    "sourceName": "HazTJ",
+    "description": "Concierto de la banda española de folk metal Mago de Oz en El Foro.",
+    "verified": "2026-09-05",
+    "tone": "purple",
+    "sessions": [
+      {
+        "date": "2026-11-28",
+        "time": "20:00"
       }
     ]
   }
